@@ -1,0 +1,37 @@
+@import "bootstrap.scss";
+
+.wrapper {
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.sprite_test {
+	display: block;
+	text-align: center;
+	font-size: 0;
+
+	li {
+		display: inline-block;
+		width: 100px;
+		height: 100px;
+		background-color: #000000;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+
+		margin: 5px;
+
+		&.sprite_1 {
+			background-image: url("../images/sprite/img-spr-1.jpg");
+		}
+
+		&.sprite_2 {
+			background-image: url("../images/sprite/img-spr-2.jpg");
+		}
+
+		&.sprite_3 {
+			background-image: url("../images/sprite/img-spr-3.jpg");
+		}
+	}
+}
